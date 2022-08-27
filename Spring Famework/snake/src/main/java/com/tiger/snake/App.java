@@ -9,10 +9,17 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class App 
 {
-    public static void main( String[] args )
+    private static ApplicationContext context;
+
+	public static void main( String[] args )
     {
-    	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-        Vehicle obj = (Vehicle)context.getBean("vehicle");
+    	context = new ClassPathXmlApplicationContext("spring.xml");
+        
+//    	Type t = (Type) context.getBean("type");
+//    	System.out.println(t);
+    	
+    	
+    	Car obj = (Car)context.getBean("car");
         obj.drive();
     }
 }
