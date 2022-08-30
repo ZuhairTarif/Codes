@@ -1,1 +1,1 @@
-Codeforces Math related problems Solutions
+Some codes solution from Codeforces and other sources
