@@ -1,1 +1,1 @@
-Codeforces Math related problems Solutions in Java
+Codeforces Math related problems Solutions
